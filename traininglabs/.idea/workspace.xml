@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="405a4355-5b5a-45e5-b08c-8e6479e1ece6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/subset_dat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>subStringSize</find>
+      <find>20</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/ai/skymind/solutions</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/data/labeled/datetime/file_dt2.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/labeled/skills/file_s3.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/labeled/skills/file_s4.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/unlabeled/file_doc_03.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/norvig_big.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/unlabeled/file_doc_04.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/ai/skymind/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/DownloaderApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab1LoaderIter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/labeled/datetime/file_dt1.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/WordVectorsApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/CustomIteratorApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/TokenizerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/embeddings/GloVeApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/networks/StackedAutoEncoderApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab6LSTM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/ModelIteratorApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Ex2RecordReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/LanguageModels.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/Part1Exercises.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/DataSources.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/LabExercises.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/ContinuousIntelligence.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/ntlk.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/StopWordsEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/libs/iterators/CustomTextIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/SentenceProcessorEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/TokenizationEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/LoaderIteratorApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Ex1Sandbox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/layers/CustomLayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/embeddings/ParagraphVectorsApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Word2VecApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/vectors/TFIDFVecApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/VocabEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/installation.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/apps/DownloaderApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/libs/iterators/IteratorOps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/libs/loaders/ModelLoaderOps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab2TokenizationSol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab3WordVectors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab3WordVectorsSol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab2Tokenization.java" />
+        <option value="$PROJECT_DIR$/scripts/subset_dat.py" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/datasources.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab1IngestionSol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab1Ingestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/docs/labexercises.md" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab4Word2Vec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab4Word2VecSol.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
+    <option name="y" value="78" />
+    <option name="width" value="1744" />
+    <option name="height" value="1043" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="exports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="iterators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="loaders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+              <item name="solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="labeled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="unlabeled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="imdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traininglabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traininglabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skymind" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552518557598" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ai/skymind/labs" />
+      <recent name="$PROJECT_DIR$/src/main/java/ai/skymind/docs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Lab4Word2VecSol">
+    <configuration name="Lab1Ingestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ai.skymind.labs.Lab1Ingestion" />
+      <module name="traininglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ai.skymind.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab1IngestionSol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ai.skymind.solutions.Lab1IngestionSol" />
+      <module name="traininglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ai.skymind.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab2TokenizationSol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ai.skymind.solutions.Lab2TokenizationSol" />
+      <module name="traininglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ai.skymind.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab3WordVectorsSol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ai.skymind.solutions.Lab3WordVectorsSol" />
+      <module name="traininglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ai.skymind.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4Word2VecSol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ai.skymind.solutions.Lab4Word2VecSol" />
+      <module name="traininglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ai.skymind.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lab4Word2VecSol" />
+        <item itemvalue="Application.Lab1IngestionSol" />
+        <item itemvalue="Application.Lab1Ingestion" />
+        <item itemvalue="Application.Lab3WordVectorsSol" />
+        <item itemvalue="Application.Lab2TokenizationSol" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../../templates/scala_hello_world" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../thoughtworks/trainings/bootcamp/repositories/batch-data-pipeline/tw-pipeline" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="405a4355-5b5a-45e5-b08c-8e6479e1ece6" name="Default Changelist" comment="" />
+      <created>1551120936390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551120936390</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="78" width="1744" height="1043" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.26321974" />
+      <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" visible="true" weight="0.26321974" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33859095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3701367" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32912722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31304348" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39557523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3629301" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32920355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ai/skymind/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/libs/loaders/DataLoaderOps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/labeled/datetime/file_dt1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/DownloaderApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab1LoaderIter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab2Tokenizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/datasets/norvig_big.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/embeddings/GloVeApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab5CustomIterator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab6LSTM.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/LanguageModels.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/ResearchPapers.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Ex2RecordReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/ntlk.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/ContinuousIntelligence.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/TokenizationEx.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/StopWordsEx.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/WordVectorsApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/SentenceProcessorEx.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Ex1Sandbox.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/LoaderIteratorApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/networks/StackedAutoEncoderApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/ModelIteratorApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/vectors/NGramsVecApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Word2VecApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/embeddings/ParagraphVectorsApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/TokenizerApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/CustomIteratorApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/vectors/TFIDFVecApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/text/VocabEx.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/installation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/libs/iterators/CustomTextIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/libs/loaders/ModelLoaderOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/snippets/layers/CustomLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab2TokenizationSol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab2Tokenization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/subset_dat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab1IngestionSol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="74" column="95" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab1Ingestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/datasources.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab3WordVectorsSol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="68" selection-start-line="64" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/solutions/Lab4Word2VecSol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab4Word2Vec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/docs/labexercises.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="602">
+            <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/libs/iterators/IteratorOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/labs/Lab3WordVectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="58" selection-start-line="54" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ai/skymind/apps/DownloaderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
